@@ -86,7 +86,7 @@ function checkAnswer(currentLevel) {
         //For testing purpose
         console.log("Game Pattern: " + gamePattern);
         console.log("User Pattern: " + userClickedPattern);
-        var errorMusic = "Wrong";
+        var errorMusic = "wrong";
         playSound(errorMusic);
         $("body").addClass("game-over");
         setTimeout(() => {
